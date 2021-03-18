@@ -1,0 +1,112 @@
+.card-header-button {
+    position: absolute;
+    top: 3px;
+    right: 4px;
+}
+
+/* React Bootstrap Table Custom Style End */
+.react-bootstrap-table .filter-label {
+    display: unset;
+}
+.react-bootstrap-table th .order > .dropdown > .caret {
+    margin: 10px 0 10px 5px;
+    color: #cccccc;
+}
+.react-bootstrap-table th .order > .dropup > .caret {
+    margin: 10px 0;
+    color: #cccccc;
+}
+.dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+    content: "";
+    border-top: 0;
+    border-bottom: 4px dashed;
+    border-bottom: 4px solid\9;
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.react-bootstrap-table td.action-column button{
+    margin-right: 5%;
+}
+.react-bootstrap-table .order {
+    position: absolute;
+}
+.react-bootstrap-table-pagination #pageDropDown .caret{
+
+    border-right: unset;
+    border-left: unset;
+}
+.react-bootstrap-table {
+    font-size: 14px;
+}
+.react-bootstrap-table .text-filter {
+    font-size: 14px;
+}
+.react-bootstrap-table-page-btns-ul {
+    float: right;
+}
+.hide-comparator {
+    display: none;
+}
+/* React Bootstrap Table Custom Style End */
+
+/* Date Picker Custom Style Start */
+.react-datepicker-wrapper {
+    display: unset !important;
+}
+.react-datepicker__today-button {
+    clear: unset !important;
+}
+/* Date Picker Custom Style End */
+
+.profile-picture {
+    width: 100px;
+}
+
+.disable-card {
+    pointer-events: none;
+    opacity: 0.5;        
+}
+
+.spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height:60px;
+    width:60px;
+    margin:0px auto;
+    -webkit-animation: rotation .6s infinite linear;
+    -moz-animation: rotation .6s infinite linear;
+    -o-animation: rotation .6s infinite linear;
+    animation: rotation .6s infinite linear;
+    border-left:6px solid rgba(0,174,239,.15);
+    border-right:6px solid rgba(0,174,239,.15);
+    border-bottom:6px solid rgba(0,174,239,.15);
+    border-top:6px solid rgba(0,174,239,.8);
+    border-radius:100%;
+ }
+ 
+ @-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(359deg);}
+ }
+ @-moz-keyframes rotation {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(359deg);}
+ }
+ @-o-keyframes rotation {
+    from {-o-transform: rotate(0deg);}
+    to {-o-transform: rotate(359deg);}
+ }
+ @keyframes rotation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
+ }
